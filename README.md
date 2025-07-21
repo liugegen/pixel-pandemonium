@@ -69,5 +69,18 @@ We designed Pixel Pandemonium specifically to meet and exceed the requirements o
 
 ### Links
 
-* **Live Demo:** `[LINK_TO_YOUR_VERCEL_APP_WILL_GO_HERE]`
-* **Smart Contract on Monad Explorer:** [0xD32537f579f105cF9C6C31AA9e6C1AAcb2B6A015](https://testnet.monadexplorer.com/address/0xD32537f579f105cF9C6C31AA9e6C1AAcb2B6A015)
+**Live Demo:** [https://pixel-pandemonium.vercel.app/](https://pixel-pandemonium.vercel.app/)
+**GitHub Repository:** [https://github.com/liugegen/pixel-pandemonium](https://github.com/liugegen/pixel-pandemonium)
+**Smart Contract on Monad Explorer:** [0xD32537f579f105cF9C6C31AA9e6C1AAcb2B6A015](https://testnet.monadexplorer.com/address/0xD32537f579f105cF9C6C31AA9e6C1AAcb2B6A015)
+
+### Submission Instructions
+
+- Submit your project to the hackathon via Tally: [https://tally.so/r/mBoPxY](https://tally.so/r/mBoPxY)
+- Make sure your Vercel link and GitHub repo are included in your submission.
+
+### Resources
+
+- [Multisynq Resources](https://monad-foundation.notion.site/multisynq-resources)
+- [Smart Contract on Monad Explorer](https://testnet.monadexplorer.com/address/0xD32537f579f105cF9C6C31AA9e6C1AAcb2B6A015)
+- [Live Demo](https://pixel-pandemonium.vercel.app/)
+- [GitHub Repository](https://github.com/liugegen/pixel-pandemonium)
