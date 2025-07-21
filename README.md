@@ -105,7 +105,7 @@ The app now supports **real NFT minting** on Monad Testnet:
 
 ### Links
 
-**Live Demo:** [https://pixel-pandemonium.vercel.app/](https://pixel-pandemonium.vercel.app/)
+**Live Demo:** [https://pixel-pandemonium.vercel.app/](https://pixel-pandemonium-theta.vercel.app/)
 **GitHub Repository:** [https://github.com/liugegen/pixel-pandemonium](https://github.com/liugegen/pixel-pandemonium)
 **Smart Contract on Monad Explorer:** [0xD32537f579f105cF9C6C31AA9e6C1AAcb2B6A015](https://testnet.monadexplorer.com/address/0xD32537f579f105cF9C6C31AA9e6C1AAcb2B6A015)
 
