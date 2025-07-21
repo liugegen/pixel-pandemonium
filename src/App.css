@@ -1,0 +1,129 @@
+/* Default Vite Styles - Keep these */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Pixel Pandemonium Custom Styles */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.app-header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #3a3a3a;
+  background-color: #1a1a1a;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.canvas-container {
+  border: 4px solid #4a4a4a;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #2a2a2a;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.canvas-grid {
+  display: grid;
+  /* Create a 32x32 grid */
+  grid-template-columns: repeat(32, 1fr);
+  grid-template-rows: repeat(32, 1fr);
+  width: 60vmin; /* Responsive width */
+  height: 60vmin; /* Responsive height */
+  gap: 1px; /* The space between pixels */
+  background-color: #4a4a4a; /* Grid line color */
+  border: 1px solid #4a4a4a;
+}
+
+.pixel {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff; /* Default pixel color (white) */
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+.pixel:hover {
+    background-color: #e0e0e0; /* A light grey hover effect */
+}
+
+/* Color Palette Styles */
+.color-palette-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+}
+
+.color-swatch {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.color-swatch:hover {
+  transform: scale(1.1);
+}
+
+.color-swatch.selected {
+  border-color: #00BFFF; /* Deep sky blue to indicate selection */
+  transform: scale(1.2);
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status-message {
+  min-height: 24px;
+  font-style: italic;
+  color: #aaa;
+  margin-bottom: 10px;
+}
