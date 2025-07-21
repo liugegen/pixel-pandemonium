@@ -67,7 +67,56 @@ We designed Pixel Pandemonium specifically to meet and exceed the requirements o
     * Make sure your MetaMask (or other wallet) is connected to the Monad Testnet.
     * Get some testnet MON from a faucet if you don't have any.
 
+## Environment Variables
+
+Create a `.env` file with the following variables:
+
+```env
+# Multisynq Configuration
+VITE_CROQUET_APP_ID="io.pixelpandemonium.hackathon"
+VITE_CROQUET_API_KEY="YOUR_CROQUET_API_KEY"
+
+# WalletConnect Configuration  
+VITE_WALLETCONNECT_PROJECT_ID="YOUR_WALLETCONNECT_PROJECT_ID"
+
+# IPFS Configuration (for NFT minting)
+VITE_PINATA_API_KEY="YOUR_PINATA_API_KEY"
+VITE_PINATA_SECRET_KEY="YOUR_PINATA_SECRET_KEY"
+```
+
+## Smart Contracts
+
+- **Pixel Payment Contract:** `0xD32537f579f105cF9C6C31AA9e6C1AAcb2B6A015`
+- **Pixel NFT Contract:** `0x587E5258F5E9cda344490D59526D0A45D3d1AA53` ✅ **DEPLOYED**
+
+## Real NFT Minting
+
+The app now supports **real NFT minting** on Monad Testnet:
+
+1. **Image Upload:** Canvas captures are uploaded to IPFS via Pinata
+2. **Metadata Creation:** ERC-721 compatible metadata with attributes
+3. **Blockchain Minting:** Real smart contract interaction with 0.001 MON fee
+4. **Transaction Tracking:** Full transaction confirmation process
+
+### Contract Details:
+- **Network:** Monad Testnet
+- **Contract:** `0x587E5258F5E9cda344490D59526D0A45D3d1AA53`
+- **Explorer:** [View on Monad Explorer](https://testnet.monadexplorer.com/address/0x587E5258F5E9cda344490D59526D0A45D3d1AA53)
+
 ### Links
 
-* **Live Demo:** `[LINK_TO_YOUR_VERCEL_APP_WILL_GO_HERE]`
-* **Smart Contract on Monad Explorer:** [0xD32537f579f105cF9C6C31AA9e6C1AAcb2B6A015](https://testnet.monadexplorer.com/address/0xD32537f579f105cF9C6C31AA9e6C1AAcb2B6A015)
+**Live Demo:** [https://pixel-pandemonium.vercel.app/](https://pixel-pandemonium.vercel.app/)
+**GitHub Repository:** [https://github.com/liugegen/pixel-pandemonium](https://github.com/liugegen/pixel-pandemonium)
+**Smart Contract on Monad Explorer:** [0xD32537f579f105cF9C6C31AA9e6C1AAcb2B6A015](https://testnet.monadexplorer.com/address/0xD32537f579f105cF9C6C31AA9e6C1AAcb2B6A015)
+
+### Submission Instructions
+
+- Submit your project to the hackathon via Tally: [https://tally.so/r/mBoPxY](https://tally.so/r/mBoPxY)
+- Make sure your Vercel link and GitHub repo are included in your submission.
+
+### Resources
+
+- [Multisynq Resources](https://monad-foundation.notion.site/multisynq-resources)
+- [Smart Contract on Monad Explorer](https://testnet.monadexplorer.com/address/0xD32537f579f105cF9C6C31AA9e6C1AAcb2B6A015)
+- [Live Demo](https://pixel-pandemonium.vercel.app/)
+- [GitHub Repository](https://github.com/liugegen/pixel-pandemonium)
